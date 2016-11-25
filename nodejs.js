@@ -1,4 +1,11 @@
 
+
+
+
+
+?? http://localhost:3000/nodejs  文件读取URL   res.render('signup'); //访问signup页
+??
+
 //通过express的框架挂载不同目录的响应
 var express = require('express');
 var app = express();
@@ -32,7 +39,7 @@ app.use('/users', userRouter);
 
 
 app.get('/', function(req, res) {
-  res.send('hello, express');
+  res.send('hello,ss express');
 });
 
 app.get('/users/:name', function(req, res) {
